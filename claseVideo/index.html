@@ -1,0 +1,26 @@
+<!-- Vamos a ver las etiquetas de video -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <!-- Las etiquetas de video nos ayudan a poner videos en la web
+                tienen atributos vacios como controls que nos brinda la posibilidad de poner
+                play pausa etc. y el preload para que se cargue cuando inicia la pagina (lo que no
+                significa que se reproduzca solo). Luego conviene poner la etiqueta de source dentro
+                de la etiqueta de video ya que asi podemos agregar varios formatos del nuestro y que el navegador
+                reproduzca automáticamente el que soporta -->
+            <video controls preload="auto">
+                <source src="./video.mp4">
+                <source src="./video.mv4">
+            </video>
+        </section>
+    </main>
+</body>
+</html>

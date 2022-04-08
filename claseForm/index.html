@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!-- Esta es la forma correcta de hacer formularios, dentro de la etiqueta label poner el span 
+        con la indicacion de que se tiene que escribir en el input. Hay muchos tipos de input estos son solo algunos
+        lo que si hay que respetar siempre es que el input tiene que tener exactamente el mismo nombre que el for del label
+         -->
+    <form action="">
+        <label for="nombre">
+            <span>¿Cual es tu nombre?</span>
+            <input type="text" id="nombre" placeholder="Juancito">
+        </label>
+        <label for="fecha-ingreso">
+            <span>¿Cuando ingresaste?</span>
+            <input type="date" id="fecha-ingreso">
+        </label>
+        <label for="hora-estudio">
+            <span>¿A que hora estudias?</span>
+            <input type="time" id="hora-estudio">
+        </label>
+    </form>
+</body>
+</html>
