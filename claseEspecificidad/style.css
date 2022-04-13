@@ -1,0 +1,8 @@
+/* Los estilos se aplican de la siguiente manera: 
+    Tenemos importancia, especificidad y orden. 
+        Primero se aplican por importancia, en este proceso se cargaran primero
+        los estilos del navegador, luego los que esten inline, o sea embebidos 
+        en el propio html, y por ultimo los de la hoja de estilo css.
+        Luego por especificidad, en codecaptain.io hay una calculadora de especificidad
+        pero la tabla vendria tipo !important, inline styles, #id, .class, tag (o sea div, p etc).
+         */

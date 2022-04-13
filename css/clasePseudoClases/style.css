@@ -1,0 +1,34 @@
+/*la anatomia de css. Tenemos el selector y luego los brackets. Dentro viene la
+    declaracion del etilo. Se compone de una propiedad y el valor de la propiedad, luego el ; y la 
+    siguiente propiedad. Cada conjunto propiedad: estilo, se llama declaracion */
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+  }
+  /* A tener en cuenta, aca se le aplica el display a la clase contenedora de lo que pongo 
+    o sea, a la clase contenedora del anchord */
+  .main-nav__item {
+    display: inline-block;
+  }
+  /* Para darle estilo al contenido ahi si uso a */
+  .main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+  
+
+  .main-nav__item a:hover {
+    color: blue;
+  }
+  .main-nav__item a:active {
+    color: red;
+  }
+  
+  .main-nav__item a::after {
+    content: " | ";
+  }

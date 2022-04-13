@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <!-- Esta es la manera menos conveniente de hacer una lista de opciones, porque el
+            scroll va a ser muy largo, y no soporta autocompletado -->
+        <select name="cursos" id="">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="CSS3">CSS3</option>
+            <option value="WebPack">WebPack</option>
+        </select>
+        <!-- Esta es la mejor forma, porque podemos escribir y se va autocompletando con lo que 
+            tiene la lista. Soporta escribir algo que no hay y despues validarlo y darle algun mensaje
+            al usuario diciendo que no esta por ejemplo. -->
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="WebPack"></option>
+        </datalist>
+    </main>
+</body>
+</html>
