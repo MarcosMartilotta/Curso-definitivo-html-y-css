@@ -5,4 +5,13 @@
         en el propio html, y por ultimo los de la hoja de estilo css.
         Luego por especificidad, en codecaptain.io hay una calculadora de especificidad
         pero la tabla vendria tipo !important, inline styles, #id, .class, tag (o sea div, p etc).
+        Para ahorra tiempo, Visual Studio Code tiene una función llamada Emmet Abbreviation donde podras colocar toda una estructura.
+        header>h1+nav>ul>li*4>a
+        aporte:
+            Los !important estarán por encima de los demás estilos. Sin embargo, son mala práctica y no se deberían usar.
+            Los estilos embebidos en el HTML, es decir inline styles están por encima de las clases y IDs. Sin embargo, también se deberían evitar.
+            Los IDs están por encima de las clases. Los IDs son específicos, si se usa uno en un archivo HTML ya no se podrá repetir más en ese mismo archivo. 
+            Mientras que las clases si se pueden repetir en cualquier elemento.
+            Un estilo de etiqueta es el último valor que el navegador tiene en cuenta antes de tomar los estilos por defecto de esa etiqueta. 
+            Los estilos de etiqueta son los que menos peso tienen.
          */
