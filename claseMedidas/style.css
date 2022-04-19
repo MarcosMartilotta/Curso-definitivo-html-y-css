@@ -1,0 +1,29 @@
+ /* Existem medidas absolutas, como px y relativas como %, em, rem. % es 
+ facil de usar y basicamente es cuanto porcentaje de la caja contenedora del elemento
+ queres que tenga el tuyo. em se usa mucho y se emplea asi:
+ 1.5em, va a tomar el tamaño del padre mas cercano y lo va a multiplicar por 1.5
+ se ve facil en los fontzize, si le pongo 1.5em a un div y adentro 1.5 de nuevo, va a multiplicar
+ al ultimo tamaño y por eso a veces genera complicaciones */
+
+ /* La que conviene usar es REM, seteando siempre html como sigue. 
+ Esto nos permite que si quiero 20px, pongo 2rem, 18px bueno, serian 1.8 rem. 
+ Y asi. Ademas es bueno usar medidas relativas ya que nos ayudan a la hora de 
+ cambiar los tamaños de pantalla */
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ html {
+     font-size: 62.5%;
+ }
+
+ p {
+     font-size: 1.6rem;
+ }
+
+ main div {
+     font-size: 1.6rem;
+ }

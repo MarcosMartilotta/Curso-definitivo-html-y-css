@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: aquamarine;
+    /* position: absolute; esto hara que se independice de la posicion que tomo respecto de las otras cajas
+                            acomodandose encima de la n°3, y su posicion estara dada respecto de toda la pantalla */ 
+    position: relative;
+    right: 5px; /* como se uso relative, se va a mover respecto de su posicion static, dentro de la caja que lo contiene
+                    es como que se mueve respecto de donde aparece sin tocarle la posicion */
+}

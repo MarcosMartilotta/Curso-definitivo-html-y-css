@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 100vw; /* Con esta propiedad puedo indicar que se vea el 100% de la pantalla en el width y el 100 en el higth con vh */
+    height: 100vh;
+    background-color: purple;
+}
+
+section {
+    width: 80%; /* Por fines practicos esta propiedad generalmente se escribe en % */
+    min-width: 320px; /* Aca es donde se ve lo practico, uno le da el 80% y le dice hasta que medida quiere que se achique */
+    max-width: 700px;
+    min-height: 300px; /* aca si le pongo el min se va a ajustar dependiendo la cantidad de contenido, pero cuadno uno achique
+                            o saque contenido, como minimo va a ser de 300px de alto */
+    background-color: lightblue;
+    margin: 0 auto;
+}
+
