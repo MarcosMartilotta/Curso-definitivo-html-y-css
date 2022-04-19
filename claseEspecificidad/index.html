@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Ejemplo para hermano directo. 
+    Si pongo h1 + p se aplicaran a todos los hermanos cercanos a h1
+    es decir todos los p que esten abajo de un h1 -->
+    <div>
+        <h1>Soy un h1</h1>
+        <p>Soy un parrafo</p>
+        <h1>Soy un h1</h1>
+        <p>Soy un parrafo</p>
+        <h1>Soy un h1</h1>
+        <h2>Soy un h2</h2>
+        <p>Soy un parrafo</p>
+    </div>
+    <!-- Ejemplo para hermano general:
+     Si pongo h1 ~ p, el estilo se agregara a todos los hermanos p, 
+        sean cercanos o no.-->
+    <!--Hijo directo: Si pongo div > p, los estilos se aplicaran a los hijos
+    directos de un div, es decir al segundo, tercer y cuarto p.
+    -->
+    <!-- Descendiente: si pongo en cambio div p, el estilo se aplicara a todos los p
+    que esten dentro de un div, sean hijos, nietos etc. -->
+    <div>
+        <article>
+            <p>Soy un parrafo</p>
+        </article>
+        <div>
+            <p>Soy un parrafo</p>
+        </div>
+        <section>
+            <div>
+                <p>Soy otro parrafo</p>
+            </div>
+        <p>soy un parrafo</p>
+        </section>
+    </div>
+</body>
+</html>

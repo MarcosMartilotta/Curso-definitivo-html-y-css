@@ -14,4 +14,14 @@
             Mientras que las clases si se pueden repetir en cualquier elemento.
             Un estilo de etiqueta es el último valor que el navegador tiene en cuenta antes de tomar los estilos por defecto de esa etiqueta. 
             Los estilos de etiqueta son los que menos peso tienen.
-         */
+         Combinadores:
+
+            */
+
+/* h1 + p {
+    color: red;
+} */
+
+h1 ~ p {
+    color: red;
+}
