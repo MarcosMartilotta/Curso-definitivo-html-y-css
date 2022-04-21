@@ -1,0 +1,7 @@
+/* Display block: ocupa el 100% del width disponible, puedo manipular el hight del elemento. Como ocupa el 100%
+los hermanos se ubican uno debajo de el otro */
+/* Display inline: Ocupa solo lo que ocupe el contenido, no puedo manipular el width y el hight, solo le puedo agregar
+margin a los costados. */
+/* Display inline block: Ocupa lo que ocupe el elemento, pero te permite manipular el widht, hight, y agregar margin 
+arriba abajo y a los lados. */
+
