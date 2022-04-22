@@ -1,0 +1,7 @@
+html {
+font-family: 'Akshar', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+/* En el google fonts te dice como tenes que especificar la fuente, generalmente significa que la primera es la 
+que elegimos y la segunda la que se va a cargar si no se puede cargar esa. */

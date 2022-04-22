@@ -1,0 +1,71 @@
+ /* https://platzi.com/comentario/1713211/
+    todo esto es para horizontal
+ El display flex sirve para alinear de diversas maneras nuestro contido
+ siempre necesitamos un contenedor al cual aplicarle la propiedad
+ existen flex-direction column y row, por otro lado flex-wrap: wrap
+ para que todo se acomode al achicar la pantalla. Y tambien justify-content: 
+ que los hay flex-start, flex-end center space-between space-aroun stretch y 
+ y space-evenly.
+ para lo vertical:
+    tenemos aligb-items: flex-start, flex-end, stretch, esta hace que crezcan verticalemte
+    todo lo que puedan segun el contenedor. baseline, el tamagno va a estar determinado 
+    poor el contenido de la caja. 
+    Al activar flex podemos ir a cada item y cambiarle el order, este funciona de 
+    derecha a izquierda y los que no tengan orden se quedan a la izquierda
+    por otro lado el flex-grow permite que se ajusten al tamagno de la pantalla
+    yapa para responsive:
+
+    */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 10rem;
+    flex-basis: 10rem; /* Esto sirve para que se puedan ir bajando los contenedores y ajustando a la pantalla */
+    flex-grow: 1;
+}
+
+.box1{
+    background-color: blue;
+    order: 3;
+    flex-grow: 1;
+}
+.box2{
+    background-color: orange;
+    flex-grow: 1;
+}
+.box3{
+    background-color: yellow;
+}
+.box4{
+    background-color: green;
+    order: 3;
+}
+.box5{
+    background-color: blueviolet;
+}
+.box6{
+    background-color: red;
+}
+
+
+
+
