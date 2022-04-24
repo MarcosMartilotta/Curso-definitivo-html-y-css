@@ -1,0 +1,16 @@
+https://www.notion.so/Curso-definitivo-de-HTML-y-CSS-7196d473c6b046d2b8de4a0edaa82dc6
+mydevice.io para ver los pixeles donde hacer breakpoints
+no es ideal mas de 6 breakpoints
+3 es lo ideal
+dropbox.com usa mostly fluid
+github layout shifter, porque cambian el contenido de lugar.
+smashing magazine usa column drop
+dribble.com usa grid.
+
+cuando uso rem logro que al poner texto grande en el navegdor el texto 
+de mi pagina crezca, si uso medidas absolutas esto no pasa
+por eso es importante siempre siempre usar rem.
+
+alt: en este atributo puedo poner una descripcion de la imagen para personas con problemas de vista. 
+
+title: alli puedo poner una descripcion corta para que cuando paso el mouse diga que se está viendo.
